@@ -1685,7 +1685,7 @@ public class ScriptStevesCarts implements IScriptLoader {
                 .eut(TierEU.RECIPE_MV).addTo(assemblerRecipes);
         GTValues.RA.stdBuilder()
                 .itemInputs(getModItem(Minecraft.ID, "string", 1, 0), getModItem(Minecraft.ID, "gunpowder", 1, 0))
-                .circuit(4).itemOutputs(getModItem(StevesCarts2.ID, "ModuleComponents", 4, 43))
+                .circuit(17).itemOutputs(getModItem(StevesCarts2.ID, "ModuleComponents", 4, 43))
                 .duration(2 * SECONDS + 10 * TICKS).eut(2).addTo(assemblerRecipes);
         GTValues.RA.stdBuilder()
                 .itemInputs(
